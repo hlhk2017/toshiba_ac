@@ -1,0 +1,32 @@
+{
+  "title": "Toshiba Air Conditioner",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sign in to Toshiba Air Conditioner",
+        "description": "Use the phone number and password from the Toshiba Air Conditioner app.",
+        "data": {
+          "phone": "Phone number",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Sign in again",
+        "description": "The account credentials are no longer valid. Enter the new password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the Toshiba cloud",
+      "invalid_auth": "Invalid phone number or password",
+      "no_devices": "No controllable air conditioners were found",
+      "unknown": "Unknown Toshiba cloud error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured",
+      "reauth_successful": "Authentication updated"
+    }
+  }
+}

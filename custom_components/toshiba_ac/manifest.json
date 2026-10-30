@@ -1,0 +1,14 @@
+{
+  "domain": "toshiba_ac",
+  "name": "东芝空调",
+  "version": "0.3.2",
+  "codeowners": [
+    "@hlhk2017"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/hlhk2017/toshiba_ac",
+  "issue_tracker": "https://github.com/hlhk2017/toshiba_ac/issues",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": []
+}
